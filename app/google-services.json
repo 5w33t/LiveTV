@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "27200251017",
+    "firebase_url": "https://livetv-5c02b.firebaseio.com",
+    "project_id": "livetv-5c02b",
+    "storage_bucket": "livetv-5c02b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:27200251017:android:a221ebd816291ee8",
+        "android_client_info": {
+          "package_name": "tk.tends2zero.livetv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "27200251017-767s0ulr04gan3l2neo7cknv1t3bk56v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "tk.tends2zero.livetv",
+            "certificate_hash": "f00a02100fc038dcc172fa0750aec50035783c8f"
+          }
+        },
+        {
+          "client_id": "27200251017-auvtd6m66vb5bce516mc3vtolo2ljtak.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdyNJaYyEchILlqPuzNzWRUrBMwWpfb2Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "27200251017-auvtd6m66vb5bce516mc3vtolo2ljtak.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

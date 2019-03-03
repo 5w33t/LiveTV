@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_live_tv_black"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LIVE TV"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="40dp"
+        android:textStyle="bold"/>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/channels"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/grad_player"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="channels"
+            android:padding="20sp"
+            android:background="@drawable/grad_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/ic_live_tv"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Channel List"
+                android:textSize="22sp"
+                android:textColor="#fff"
+                android:layout_gravity="center"/>
+
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:id="@+id/report"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/grad_player"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="report"
+            android:padding="20sp"
+            android:background="@drawable/grad_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/ic_report_white"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Report An Issue"
+                android:textSize="22sp"
+                android:textColor="#fff"
+                android:layout_gravity="center"/>
+
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:id="@+id/about"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/grad_player"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="about"
+            android:padding="20sp"
+            android:background="@drawable/grad_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/ic_information_white"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="About Us"
+                android:textSize="22sp"
+                android:textColor="#fff"
+                android:layout_gravity="center"/>
+
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+</LinearLayout>

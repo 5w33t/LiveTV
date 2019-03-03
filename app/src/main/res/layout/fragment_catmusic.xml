@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#fff">
+
+    <ImageView
+        android:layout_margin="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="176dp"
+        android:src="@drawable/catmusic"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cat Music is a record label based in Bucharest, Romania. The largest music producer in Romania, Cat Music holds 30% of the market share and a catalog of more than 8,500 songs"
+        android:textSize="16sp"
+        android:layout_margin="15dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/watch_catmusic"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click Here To Watch"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:textColor="#fff"
+        android:elevation="10dp"
+        android:background="@color/colorPrimary"/>
+</LinearLayout>

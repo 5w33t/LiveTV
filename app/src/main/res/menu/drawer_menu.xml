@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_atnBanglaNewsTV"
+            android:icon="@drawable/ic_live_tv_black"
+            android:title="ATN Bangla News" />
+
+        <item
+            android:id="@+id/menu_catMusicTV"
+            android:icon="@drawable/ic_live_tv_black"
+            android:title="Cat Music" />
+
+        <item
+            android:id="@+id/menu_cnnTV"
+            android:icon="@drawable/ic_live_tv_black"
+            android:title="CNN News" />
+
+        <item
+            android:id="@+id/menu_indiaTV"
+            android:icon="@drawable/ic_live_tv_black"
+            android:title="India TV" />
+
+        <item
+            android:id="@+id/menu_nTV"
+            android:icon="@drawable/ic_live_tv_black"
+            android:title="NTV" />
+
+        <item
+            android:id="@+id/menu_RTV"
+            android:icon="@drawable/ic_live_tv_black"
+            android:title="RTV" />
+
+        <item
+            android:id="@+id/menu_somoyTV"
+            android:icon="@drawable/ic_live_tv_black"
+            android:title="Somoy TV" />
+        <item
+            android:id="@+id/menu_report"
+            android:icon="@drawable/ic_report"
+            android:title="Report An Error" />
+        <item
+            android:id="@+id/menu_about"
+            android:icon="@drawable/ic_information"
+            android:title="About Us"
+
+            />
+    </group>
+
+</menu>
